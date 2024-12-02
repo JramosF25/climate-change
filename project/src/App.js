@@ -14,7 +14,7 @@ const App = () => {
 
   return (
     <div className="container">
-      <h1>Registro de Ganado</h1>
+      <h1 className="text-center text-primary my-4">Registro de Ganado</h1>
       <FormularioGanado agregarGanado={agregarGanado} />
       <ListaGanado ganado={ganado} />
     </div>
